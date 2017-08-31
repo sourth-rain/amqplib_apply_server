@@ -13,11 +13,7 @@
         "user":"guest",
         "password":"guest"
       },
-      "appId":"d9e640334196",
-      "port": 31000,
-      "announcementResUrl":"http://localhost:9001",
-      "totalGetCount":1000,
-      "cronJobCount":100
+      "port": 31000
     },
     "production": {
       "dataBase": {
@@ -29,10 +25,11 @@
           "logging": false,
           "isolationLevel": "READ COMMITTED"
       },
-      "port": 31100,
-      "appId":"d9e640334196",
-      "announcementResUrl":"http://sync.stockalert.cn",
-      "totalGetCount":1000,
-      "cronJobCount":100
+      "mq":{
+        "host":"",
+        "user":"",
+        "password":""
+      },
+      "port": 31100
     }
   }
