@@ -1,35 +1,18 @@
 {
-    "development": {
-      "dataBase": {
-          "database": "haiTong_sync",
-          "host": "localhost",
-          "username": "root",
-          "password": "",
-          "dialect": "mysql",
-          "isolationLevel": "READ COMMITTED"
-      },
-      "mq":{
-        "host":"localhost",
-        "user":"guest",
-        "password":"guest"
-      },
-      "port": 31000
+  "development": {
+    "dataBase": {
+      "database": "test",
+      "host": "localhost",
+      "username": "root",
+      "password": "root",
+      "dialect": "mysql",
+      "isolationLevel": "READ COMMITTED"
     },
-    "production": {
-      "dataBase": {
-          "database": "haiTong_sync",
-          "host": "",
-          "username": "root",
-          "password": "",
-          "dialect": "mysql",
-          "logging": false,
-          "isolationLevel": "READ COMMITTED"
-      },
-      "mq":{
-        "host":"",
-        "user":"",
-        "password":""
-      },
-      "port": 31100
-    }
+    "mq": {
+      "host": "localhost",
+      "user": "guest",
+      "password": "guest"
+    },
+    "port": 31000
   }
+}
